@@ -1,8 +1,7 @@
 #################
 ## Eclipse
 #################
-*.env
-*.env*
+
 *.pydevproject
 .project
 .metadata
