@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #################
 ## Eclipse
 #################
@@ -222,3 +223,16 @@ Homestead.yaml
 Homestead.json
 .env
 .env*
+=======
+ 
+ *.env
+*.env*
+
+
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+.env*
+>>>>>>> origin/install
