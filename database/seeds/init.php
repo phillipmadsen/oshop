@@ -15,9 +15,9 @@ class init extends Seeder
     public function run()
     {
         $user = User::create([
-            'username' => 'admin',
-            'email' => 'admin@email.com',
-            'password' => bcrypt('admin')
+            'username' => 'phillipmadsen',
+            'email' => 'pmadsen2013@gmail.com',
+            'password' => bcrypt('mad15696')
         ]);
         $user->isAdmin = 1;
         $user->save();
