@@ -73,16 +73,16 @@
 			<div class="col-md-3 col-sm-4 col-xs-6">
 				<ul>
 					<li class="Heading">OUR STORES</li>
-					<li><a href="#">San Francisco, CA</a></li>
-					<li><a href="#">Los Angeles, CA</a></li>
-					<li><a href="#">Seattle, WA</a></li>
+					<li><a href="#">West Valley City, UT</a></li>
+				{{-- 	<li><a href="#">Los Angeles, CA</a></li>
+					<li><a href="#">Seattle, WA</a></li> --}}
 				</ul>
 			</div>
 			<div class="col-md-3 col-sm-4 col-xs-6">
 				<ul>
 					<li class="Heading">ADDRESS</li>
-					<li>580 California Street</li>
-					<li>16 Floor, San Fransisco, CA</li>
+					<li>2225 South 3200 West</li>
+					<li>West Valley City, UT, 84119</li>
 					<li></li>
 					<li>Phone : 666-666-666</li>
 					<li>FAX : 666-666-666</li>
@@ -90,7 +90,7 @@
 			</div>
 		</div>
 		<hr>
-		<div class="copyright">Copyright © 2015 Developed By <a href="mailto:hedimlika@protonmail.com">Hedi Mlika</a>. All Rights Rserved.</div>
+		<div class="copyright">Copyright © 2015 Developed By <a href="mailto:contact@affordableprogrammer.com">Phillip Madsen</a>. All Rights Rserved.</div>
 	</div>
 </div>
 
