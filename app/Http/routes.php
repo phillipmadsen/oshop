@@ -1,23 +1,9 @@
 <?php
 
 
-/*
-|--------------------------------------------------------------------------
-| CUSTOM DEVELOPER TOOLS / ROUTE AND FUNCTION OUTPUT
-|--------------------------------------------------------------------------
-| Custom route to output a easy to copy and paste list of all routes and ways you can use them.
-| VERY HELPFUL FOR DEVELOPERS
-*/
-
 Route::get('/r', function ()
 {
 
-    /**
-     * undocumented function
-     *
-     * @return void //ouputs a list of routes and easy ways to use them.
-     * @author Phillip Madsen <contact@affordableprogrammer.com>
-     **/
     function philsroutes()
 	{
 		$i=0;
