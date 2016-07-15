@@ -1,0 +1,550 @@
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis-Regular.otf");
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+/****************************************************
+ *
+ *         [+] Navigation Bar Styling
+ *
+ ****************************************************/
+
+.navbar-default{
+	background-color: white;
+	border-radius: 0;
+	margin-left: 265px;
+	margin-bottom: 0; 
+	height: 67px;
+	padding-top: 8px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.navbar-default i{
+	color: #7a8897;
+}
+
+.navbar-default li i{
+	padding-top: 12px;
+	padding-right: 20px;
+}
+
+.navbar-default li i:hover{
+	cursor: pointer;
+}
+
+.navbar-default a{
+	padding: 0;
+}
+
+/*Red Notification Circle*/
+.badge-notify{
+   background:red;
+   position:relative;
+   top: -20px;
+   left: -35px;
+   opacity: 0.7;
+}
+
+#profileimg{
+	height: 66px;
+	width: 70px;
+	position: relative;
+	top : -9px;
+}
+
+.navbar-right i{
+	padding-left: 20px;
+	max-width: 45px;
+}
+
+.navbar-settings .dropdown-toggle{
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	background-color: transparent;
+}
+
+#navbar-search{
+	background-color: #d9dcde;
+	color: #9da7b1;
+	border-radius: 0;
+	height: 32px;
+	width: 260px;
+	border: 0;
+	/*border-radius: 4px;*/
+}
+
+#navbar-search:focus{
+	border-color: none;
+  	box-shadow: none;
+  	outline: 0 none;
+}
+
+@media(max-width: 1002px){
+	.sidebar{
+		display: none;
+	}
+	.navbar-default{
+		margin-left: 0;
+	}
+	.content , .container-fluid{
+		margin-left: 15px !important;
+	}
+}
+
+.extend-navbar{
+	margin-left: 0;
+}
+
+/****************************************************
+ *
+ *         [+] Dashboard Content Styling
+ *
+ ****************************************************/
+
+body{
+	background-color: #edf2f5;
+}
+
+.content{
+	overflow: auto;
+	padding-top: 70px;
+	margin-left: 280px;
+	margin-right: 15px;
+}
+
+.flash-message{
+	background-color: #00a9e8;
+	opacity: .8;
+	color: white;
+	position: fixed;
+	width: 300px;
+	bottom : 10px;
+	right : 10px;
+	z-index: 9999;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.warning-message{
+	background-color: red;
+}
+
+.extend-content{
+	margin-left: 15px;
+}
+
+.dashboard h3{
+	padding-bottom: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+}
+
+.dashboard canvas{
+	width: 100%;
+  	height: auto;
+}
+
+/****************************************************
+ *
+ *         [+] Products Section Styling
+ *
+ ****************************************************/
+
+.content .products table , .content .orders table , .content .pages table , .content .sections table , .content .users table , .content .categories table{
+	border : 2px solid #e4eaed;
+}
+
+#table-header{
+	background-color: #f4f7f8;
+	border : 0;
+	text-transform: uppercase;
+	/*border-right: 8px solid #435D6D;
+	border-left: 8px solid #435D6D;*/
+}
+
+.content table{
+	background-color: white;
+	text-align: center;
+}
+
+.content table td{
+	max-width: 150px;
+}
+
+.content .products table tr:hover , .content .orders table tr:hover , .content .categories table tr:hover , .content .pages table tr:hover , .content .sections table tr:hover , .content .users table tr:hover{
+	background-color: #52be7f;
+	border: 2px solid #52be7f;
+	outline: 3px solid #52be7f;
+	padding-left: -10px;
+}
+
+#table-header:hover{
+	outline: none;
+}
+
+.content a:hover{
+	text-decoration: none;
+}
+
+.add-btn{
+	background-color: #435D6D;
+	color: white;
+	padding: 20px;
+	float: right;
+	margin: 10px 0 10px 0;
+}
+
+.add-btn:hover , .prod-submit:hover , .add-btn:hover a, .prod-submit:hover a{
+	color: white;
+}
+
+/****************************************************
+ *
+ *         [+] Add Product Styling
+ *
+ ****************************************************/
+
+.add-product{
+	padding-top: 10px;
+	font-family: "Open Sans";
+}
+
+.add-product{
+	margin-top: 10px;
+	background-color: white;
+}
+
+.add-product input , .add-product textarea , .add-product select{
+	border-radius: 0;
+}
+
+.add-product input:focus , .add-product textarea:focus , .form-control , .add-product select:focus{
+	border-color: none;
+  	box-shadow: none;
+  	-webkit-box-shadow : 0;
+  	outline: 0 none;
+}
+
+.add-product .prod-submit{
+	background-color: #435D6D;
+	color: white;
+	border: 0;
+}
+
+.add-product .prod-submit:hover{
+	background-color: #435D6D;
+	color: white;
+}
+
+.add-product #add_album_image{
+	background-color: #00b3f7;
+	color: white;
+	padding: 5px;
+	font-size: 10px;
+	width: 80px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.add-product #add_album_image:hover{
+	cursor: pointer;
+}
+
+.add-product .remove-photo{
+	color: red;
+	font-weight: border;
+}
+
+.add-product .remove-photo:hover{
+	cursor: pointer;
+}
+
+.add-product .options{
+	margin-bottom: 100px;
+}
+
+.add-product .options .option{
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px dashed grey;
+	padding: 10px;
+}
+
+.add-product .options .remove-option,.add-product .options .remove-option-edit{
+	float: right;
+	color: red;
+}
+
+.add-product .options .remove-option:hover, .add-product .options .remove-option-edit:hover{
+	cursor: pointer;
+}
+
+.add-product .options .values{
+	margin-top: 5px;
+}
+
+.add-product .options .add_option_value{
+	background-color: #e3e3e3;
+	width: 100px;
+	text-align: center;
+	border: 1px solid grey;
+}
+
+.add-product .options .add_option_value:hover {
+	cursor: pointer;
+}
+
+.add-product .options .remove-value ,.add-product .options .remove-value-edit{
+	color: #00b3f7;
+	padding-left: 5px;
+}
+
+.add-product .options .remove-value:hover,.add-product .options .remove-value-edit:hover{
+	cursor: pointer;
+}
+
+.add-product #add_product_option{
+	background-color: #52be7f;
+	padding: 10px;
+	color: white;
+	width: 150px;
+	text-align: center;
+}
+
+.add-product #add_product_option:hover{
+	cursor: pointer;
+}
+
+/****************************************************
+ *
+ *         [+] Sidebar Styling
+ *
+ ****************************************************/
+
+.sidebar{
+	width: 265px;
+	height: 100%;
+	position: fixed;
+	background-color: #25343e;
+	z-index: 9999;
+}
+
+.side-header{
+	background-color: #1F2C34;
+	height: 67px;
+	line-height: 67px;
+	text-align: center;
+	/*color: #eff3f3;*/
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	color: #FF7415;
+}
+
+.side-sections{
+	padding-top: 10px;
+}
+
+.side-sections #title{
+	color: white;
+	padding-left: 70px;
+	margin: 10px 0 10px 0;
+}
+
+.side-sections #msg-notofication , .side-sections #order-notofication{
+	padding : 3px 5px 3px 5px;
+	border-radius: 5px;
+	font-size: 12px;
+}
+
+.side-sections #msg-notofication{
+	margin-left: 30px;
+	background-color: #FF7415;
+}
+
+.side-sections #order-notofication{
+	margin-left: 45px;
+	background-color: #00b3f7;
+}
+
+.side-sections ul{
+	list-style: none;
+	padding: 0;
+	line-height: 50px;
+}
+
+.side-sections li{
+	width: 100%;
+	height: 50px;
+}
+
+.side-sections a{
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	font-family: "Open Sans";
+	color: #eff3f3;
+	font-size: 14px;
+	display: block;
+	padding-left: 70px;
+}
+
+.side-sections li:hover a, .active-section a{
+	background-color: #314450;
+	border-left: 3px solid #00b3f7;
+	padding-left: 67px;
+	cursor: pointer;
+}
+
+.side-sections li:hover a, .active-section a{
+	color: white;
+}
+
+.side-sections i{
+	padding-right: 9px;
+}
+
+/****************************************************
+ *
+ *         [+] Users Section Styling
+ *
+ ****************************************************/
+ 
+.not-active {
+   pointer-events: none;
+   color: grey;
+   cursor: default;
+}
+
+/****************************************************
+ *
+ *         [+] Messages Section Styling
+ *
+ ****************************************************/
+ 
+.messages{
+ 	margin-top: 20px;
+ 	font-family: "Open Sans"
+ }
+
+.messages table tr:hover{
+ 	cursor: pointer;
+ 	border : 0;
+ }
+
+.messages table td{
+	max-width: 300px;
+	overflow: hidden;
+}
+
+.messages table tr{
+	max-height: 60px;
+	overflow: hidden;
+}
+
+.not-opened{
+ 	font-weight: bold;
+ }
+
+ .messages .no-messages{
+ 	font-size: 50px;
+ 	position: absolute;
+  	top: 50%;
+  	left : 38%;
+ 	color: grey;
+ }
+
+ /****************************************************
+ *
+ *         [+] Display Message Styling
+ *
+ ****************************************************/
+
+.show-message{
+ 	padding-bottom: 18px;
+ }
+
+ .show-message article{
+ 	margin-top: 20px;
+ 	border: 1px dashed #e3e3e3;
+ 	padding: 10px;
+ }
+
+ .show-message .delete-btn{
+ 	background-color: red;
+ 	color: white;
+ 	float: right;
+ 	padding: 5px;
+ }
+
+
+ /****************************************************
+ *
+ *         [+] Orders Section Styling
+ *
+ ****************************************************/
+
+.orders{
+	margin-top: 20px;
+}
+
+.orders table tr:hover{
+	cursor: pointer;
+}
+
+.orders #table-header:hover{
+	cursor: auto;
+}
+
+/****************************************************
+*
+*         [+] Show Order Section Styling
+*
+****************************************************/ 
+
+.show-order {
+	padding-top: 30px;
+}
+
+.show-order .table-bordered , .show-order table , .show-order table td{
+	border-color: #CDCDCD !important ;
+}
+
+.show-order table tr:hover{
+	border: 0;
+	background-color: white;
+}
+
+
+.shipping-info table{
+	font-size: 15px;
+}
+
+.content{
+	font-family: "Open Sans";
+}
+
+.show-order #options{
+	text-transform: uppercase;
+}
+
+.show-order #options td{
+	background-color: #e3e3e3;
+}
+
