@@ -38,8 +38,8 @@
 				<span id="sub-msg">Subscribe to Newsletter : </span> <input type="text" id="sub-input" name="subscribe" placeholder="Enter your email address">
 			</div>
 			<div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-12">
-				Join : 
-				<a href="#" class="fa fa-facebook-square fa-2x" id="facebook"></a> 
+				Join :
+				<a href="#" class="fa fa-facebook-square fa-2x" id="facebook"></a>
 				<a href="#" class="fa fa-twitter-square fa-2x" id="twitter"></a>
 				<a href="#" class="fa fa-instagram fa-2x" id="instagram"></a>
 				<a href="#" class="fa fa-google-plus-square fa-2x" id="googleplus"></a>
@@ -90,7 +90,7 @@
 			</div>
 		</div>
 		<hr>
-		<div class="copyright">Copyright © 2015 Developed By <a href="mailto:hedimlika@protonmail.com">Hedi Mlika</a>. All Rights Rserved.</div>
+		<div class="copyright">Copyright © 2015 Developed By <a href="mailto:">Phillip Madsen</a>. All Rights Rserved.</div>
 	</div>
 </div>
 
@@ -101,21 +101,21 @@
 	$(document).ready(function(){
 
 		if ($('.alert-error').length) {
-			swal({   
-				title: "Error!",   
-				text: "{{ Session::get('alert-error') }}",   
-				type: "error",   
+			swal({
+				title: "Error!",
+				text: "{{ Session::get('alert-error') }}",
+				type: "error",
 				timer: 3000,
 				showConfirmButton: false
 			});
 		};
 		if($('.alert-success').length){
-			swal({   
-				title: "Success",   
-				text: "{{ Session::get('alert-success') }}",   
+			swal({
+				title: "Success",
+				text: "{{ Session::get('alert-success') }}",
 				type: "success",
 				timer: 3000,
-				showConfirmButton: false  
+				showConfirmButton: false
 			});
 		};
 	});

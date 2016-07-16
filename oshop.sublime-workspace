@@ -1,0 +1,576 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"doc",
+				"doc_f\tFunction"
+			],
+			[
+				"generate",
+				"generatePin\t(helpers.php)"
+			],
+			[
+				"Form",
+				"Form::open\tOpen a Form"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/G/[cc]/dropin/composer.json",
+			"settings":
+			{
+				"buffer_size": 1735,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "format",
+		"selected_items":
+		[
+			[
+				"format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"markdown",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"foramt",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"collap",
+				"Trimmer: Collapse lines."
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"fold",
+				"Fold Comments"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"editro",
+				"Snippet: editor-base"
+			],
+			[
+				"scope",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"tog",
+				"Toggle ScopeAlways"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"markd",
+				"MarkdownTOC:Insert TOC"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"PHPLOC: ",
+				"PHP Class browser: (Re)Create Database"
+			],
+			[
+				"toggle sc",
+				"Toggle ScopeAlways"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"logg",
+				"Logging: Enable logging"
+			],
+			[
+				"toggle",
+				"SublimeLog: Toggle logger (on/off)"
+			],
+			[
+				"logging",
+				"Logging: Enable logging"
+			],
+			[
+				"new",
+				"Tasks: New document"
+			],
+			[
+				"orgmo",
+				"Preferences: orgmode Settings – Default"
+			],
+			[
+				"tree",
+				"ProjectTreeTemplater: Run"
+			]
+		],
+		"width": 904.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"sublime.log_input(True)",
+			"sublime.log_commands(True)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/[LARACASTS]/oshop",
+		"/G/[LARACASTS]/oshop/app",
+		"/G/[LARACASTS]/oshop/app/Ecommerce",
+		"/G/[LARACASTS]/oshop/app/Ecommerce/Billing",
+		"/G/[LARACASTS]/oshop/app/Http",
+		"/G/[LARACASTS]/oshop/database",
+		"/G/[LARACASTS]/oshop/database/migrations"
+	],
+	"file_history":
+	[
+		"/G/[cc]/composer.json",
+		"/G/A_LOCAL/bbb/upload/app/Http/Controllers/ArticleController.php",
+		"/G/[cc]/dropin/database/migrations/2016_07_24_183444_create_products_table.php",
+		"/G/[cc]/dropin/database/migrations/2016_07_24_200115_create_orders_table.php",
+		"/G/[cc]/dropin/database/migrations/2016_08_04_033633_create_stripe_table.php",
+		"/G/[LARACASTS]/oshop/app/Ecommerce/Billing/BillingInterface.php",
+		"/G/[LARACASTS]/oshop/app/Ecommerce/helperFunctions.php",
+		"/G/[cc]/dropin/.env",
+		"/G/[LARACASTS]/oshop/app/Helpers/helpers.php",
+		"/G/[LARACASTS]/oshop/resources/views/site/template.blade.php",
+		"/G/A_LOCAL/bbb/part1/markdown outline.md",
+		"/G/A_LOCAL/bbb/part1/database/migrations/2016_07_11_200533_create_photos_table.php",
+		"/G/[LARACASTS]/lara.product/.env",
+		"/G/A_LOCAL/bbb/part1/public/assets/css/style.css",
+		"/G/A_LOCAL/bbb/part1/app/Models/Photo.php",
+		"/G/[LARACASTS]/lara.product/app/Http/routes.php",
+		"/G/A_LOCAL/bbb/part1/resources/views/pages/home.blade.php",
+		"/G/[LARACASTS]/oshop/database/migrations/2015_08_11_072218_create_product_album_table.php",
+		"/G/[LARACASTS]/oshop/app/Http/Controllers/ProductController.php",
+		"/G/[LARACASTS]/oshop/app/Http/Controllers/AdminController.php",
+		"/G/[LARACASTS]/oshop/app/Http/routes.php",
+		"/G/[cc]/ashop/.gitignore",
+		"/G/[cc]/laraship/app/BaseModel.php",
+		"/G/[cc]/laraship/app/Feature.php",
+		"/G/A_LOCAL/bbb/part1/resources/views/product/create.blade.php",
+		"/G/A_LOCAL/bbb/part1/app/Http/Controllers/ProductController.php",
+		"/G/Desktop/[NEW]/msrts-v.1.0/msrts-v.1.0/source/composer.json",
+		"/G/[cc]/sitebuilder/.env",
+		"/G/Desktop/[NEW]/ESHOP/demo-dump.sql",
+		"/G/[cc]/multistore/.env",
+		"/G/[cc]/laraship/.env",
+		"/G/[cc]/ashop/.env",
+		"/G/Desktop/[NEW]/ESHOP/database/migrations/2015_07_10_110857_product_images.php",
+		"/G/Desktop/[NEW]/ESHOP/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/G/Desktop/[NEW]/ESHOP/database/migrations/2015_07_07_102904_parent_categories.php",
+		"/G/Desktop/[NEW]/ESHOP/database/migrations/2016_02_14_091633_update-settings.php",
+		"/G/Desktop/[NEW]/ESHOP/database/migrations/2015_10_26_184424_coupons.php",
+		"/G/Desktop/[NEW]/ESHOP/database/migrations/2015_08_02_094458_add_cashier_columns.php",
+		"/C/Users/sandbox/.homestead/Homestead.yaml",
+		"/G/[LARACASTS]/oshop/.DS_Store",
+		"/G/[LARACASTS]/oshop/app/AlbumPhoto.php",
+		"/G/[LARACASTS]/oshop/.phpintel/index",
+		"/G/A_LOCAL/bbb/part1/app/Http/routes.php",
+		"/G/A_LOCAL/bbb/part1/app/ProductPhotos.php",
+		"/G/A_LOCAL/bbb/part1/app/Product.php",
+		"/G/A_LOCAL/bbb/part1/app/Models/ProductImage.php",
+		"/G/[LARACASTS]/oshop/database/migrations/2015_07_24_183444_create_products_table.php",
+		"/G/A_LOCAL/bbb/part1/database/migrations/2016_07_11_163209_add_to_products.php",
+		"/G/[LARACASTS]/oshop/readme.md",
+		"/G/[LARACASTS]/oshop/.idea/ShopGrace.iml",
+		"/G/[LARACASTS]/oshop/.idea/vcs.xml",
+		"/G/[LARACASTS]/oshop/.idea/workspace.xml",
+		"/G/[LARACASTS]/oshop/.idea/blade.xml",
+		"/G/[LARACASTS]/oshop/.idea/.name",
+		"/G/[LARACASTS]/oshop/.env",
+		"/G/[LARACASTS]/oshop/composer.json",
+		"/G/[LARACASTS]/oshop/package.json",
+		"/G/[LARACASTS]/oshop/phpspec.yml",
+		"/G/[LARACASTS]/oshop/database/seeds/init.php",
+		"/G/[LARACASTS]/oshop/database/seeds/DatabaseSeeder.php",
+		"/G/[LARACASTS]/oshop/database/factories/ModelFactory.php",
+		"/G/A_LOCAL/bbb/part1/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/G/[LARACASTS]/oshop/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/G/A_LOCAL/bbb/part1/database/migrations/2016_07_11_162950_create_products_table.php",
+		"/G/A_LOCAL/bbb/part1/resources/views/pages/upload.blade.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/FontMenuNameDB",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/family.fea",
+		"/G/Desktop/TEMPLATES/temprar/Rar$DRa0.984/source-code-pro-master/build.cmd",
+		"/G/Desktop/TEMPLATES/temprar/Rar$DRa0.645/source-code-pro-master/build.sh",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/features",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/font.ufo/lib.plist",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/font.ufo/groups.plist",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/font.ufo/layercontents.plist",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/fontinfo",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/font.ttf",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/mark.fea",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/font.ufo/metainfo.plist",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/markclasses.fea",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/tthints",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/ppms",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/mkmk.fea",
+		"/F/FONTS/source-code-pro-master (1)/source-code-pro-master/Roman/Semibold/derivedchars_TT",
+		"/G/Desktop/TEMPLATES/temprar/Rar$DRa0.077/FiraCode-master/FiraCode.glyphs",
+		"/G/[LARACASTS]/lara.product/.gitignore",
+		"/G/A_LOCAL/bbb/part1/database/migrations/2016_07_11_200533_create_product_photos_table.php",
+		"/G/Desktop/TEMPLATES/temprar/Rar$DIa0.373/User.php",
+		"/G/A_LOCAL/bbb/part1/storage/logs/laravel-2016-07-14.log",
+		"/G/[LARACASTS]/laravel-flyer/composer.json",
+		"/G/A_LOCAL/bbb/part1/composer.json",
+		"/G/[LARACASTS]/laravel-flyer/app/Http/Controllers/Traits/AuthorisesUsers.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/app/Http/routes.php",
+		"/G/[LARACASTS]/laravel-flyer/app/Http/Kernel.php",
+		"/G/A_LOCAL/bbb/part1/app/Http/Controllers/PagesController.php",
+		"/G/[LARACASTS]/laravel-flyer/app/Http/routes.php",
+		"/G/[LARACASTS]/laravel-flyer/app/Http/Flash.php",
+		"/G/A_LOCAL/bbb/part1/app/Http/Controllers/Image/ImageManageController.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/app/Http/Controllers/Image/ImageManageController.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/app/Business/UserBusiness.php",
+		"/G/A_LOCAL/newsites/clip/developr/auto-setup.html",
+		"/G/A_LOCAL/bbb/part1/ExampleTest.php",
+		"/G/A_LOCAL/bbb/part1/app/Providers/RouteServiceProvider.php",
+		"/G/A_LOCAL/bbb/part1/app/User.php",
+		"/G/A_LOCAL/bbb/part1/storage/logs/laravel.log",
+		"/G/A_LOCAL/bbb/part1/readme.md",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/app/Common/Constant.php",
+		"/G/A_LOCAL/bbb/part1/resources/views/admin/image/create.blade.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/app/Common/UploadFileHelper.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/app/Business/ImageBusiness.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/resources/views/admin/image/create.blade.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/resources/views/admin/image/index.blade.php",
+		"/G/A_LOCAL/bbb/part1/resources/views/admin/image/index.blade.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/.env",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/composer.json",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/app/Providers/AppServiceProvider.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/app/Providers/RouteServiceProvider.php",
+		"/G/Desktop/[NEW]/sourcecode_document/SourceCode/app/Http/Controllers/Controller.php",
+		"/G/A_LOCAL/bbb/part1/resources/views/avatar/upload.blade.php",
+		"/G/Downloads/3DVW0F34PN.txt",
+		"/G/A_LOCAL/newsites/clip/developr/css/style.css",
+		"/G/A_LOCAL/bbb/part1/config/app.php",
+		"/G/[affordable]/[code]/treeview2.txt",
+		"/G/A_LOCAL/grace/full.admin/New folder/resources/views/admin/uicontrol/treeview.blade.php",
+		"/G/A_LOCAL/grace/full.admin/resources/views/admin/uicontrol/listview.blade.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/.env",
+		"/G/A_LOCAL/aaa/frontend.canvas/app/Http/new_routes.php",
+		"/G/A_LOCAL/aaa/frontend.canvas/app/Http/routes.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"G:\\[LARACASTS]\\oshop",
+			"G:\\A_LOCAL\\bbb\\part1"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hedi",
+			"heidi",
+			"bakery",
+			"sitebuilder",
+			"multistore",
+			"ashop",
+			"CMS",
+			"images",
+			"The photo field is required",
+			"lara.product",
+			"[",
+			"(?<=[)(.*?)(?=])",
+			"([.*?])",
+			"('.*?')",
+			" [(.|\\n)*?]",
+			" [(.|\\n)]",
+			" [(\\s*?.*?)*?]",
+			"([.*])",
+			"[.*]",
+			"[.*?]",
+			"[(.*?)]",
+			"(?<=[)(.*?)(?=])",
+			"Source Code Pro ",
+			"uploader",
+			"flyer",
+			"Blog",
+			"admin/",
+			"blog",
+			"$blog",
+			"'",
+			"30",
+			"td",
+			"center",
+			", [\\'id\\' => 1",
+			"Action",
+			"center",
+			"td",
+			"45",
+			"/**",
+			"Http]",
+			"Http",
+			"lib",
+			"Post",
+			" stage.repo",
+			"appfactory",
+			"image",
+			"true",
+			"kb_category_slug",
+			"$form_data",
+			"*$formdata*",
+			"$formdata",
+			"array(",
+			");\n",
+			"restrict",
+			"_name",
+			"flash_message",
+			"Articles",
+			"photo",
+			"article",
+			"file",
+			"files",
+			"$photo",
+			"Image",
+			"1",
+			"dropzone",
+			"    /**\n     * @var array\n     */",
+			"Fully",
+			"    /**\n     * @return mixed\n     */",
+			"App",
+			"3",
+			"2",
+			"$1",
+			"$startdirectory",
+			"$searchterm",
+			"Phillip",
+			"old-word",
+			"subdomainA",
+			"homestead",
+			"KW",
+			"HD",
+			"s3",
+			"{\n",
+			"$newsItem",
+			"2",
+			"App",
+			"admin/",
+			"-noprofile",
+			"powershell",
+			"upload",
+			"drop",
+			"picture",
+			"forceFallback",
+			"article",
+			"Article",
+			"article",
+			"Article",
+			"article",
+			"dropColumn",
+			"integer",
+			"homestead",
+			"staged.grace",
+			"- map: staged.grace",
+			"\\\\",
+			"strong",
+			"@started(16-06-28 12:37)",
+			"”",
+			"“"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/G/[cc]/dropin/composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 116.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.loghighlight":
+	{
+		"height": 452.0
+	},
+	"output.scopehunter.results":
+	{
+		"height": 80.0
+	},
+	"pinned_build_system": "Packages/User/PHP.sublime-build",
+	"project": "oshop.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"G:\\A_LOCAL\\bbb\\upload\\upload.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 371.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

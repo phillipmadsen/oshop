@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ShopCMS.iml" filepath="$PROJECT_DIR$/.idea/ShopCMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oshop.iml" filepath="$PROJECT_DIR$/.idea/oshop.iml" />
     </modules>
   </component>
 </project>
